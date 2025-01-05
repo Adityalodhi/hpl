@@ -1,13 +1,12 @@
-import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import team1 from "./images/team1.png";
 import team2 from "./images/team2.png";
 import team3 from "./images/team3.png";
 import team4 from "./images/team4.png";
-import team5 from "./images/team5.jpg";
+import team5 from "./images/team5.png";
 import team6 from "./images/team6.png";
-import team7 from "./images/team7.jpg";
-import team8 from "./images/team8.jpg";
+import team7 from "./images/team7.png";
+import team8 from "./images/team8.png";
 import hplvideo from "./images/HPL24T.mp4";
 
 const sports = [
