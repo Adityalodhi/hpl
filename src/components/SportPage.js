@@ -20,7 +20,7 @@ import team8 from "./images/team8.jpg"
 
 const sports = [
   { 
-    id: 1, 
+    id: 5, 
     name: 'Classic challenger', 
     logo: team1,
     captainImage: Cap1,
@@ -28,7 +28,7 @@ const sports = [
     message: "Where tradition meets triumph!Led by the dynamic Pratik Mulay, the Classic Challengers embody the perfect blend of strategy and spirit. With their iconic yellow jerseys symbolizing energy and optimism, this team takes on every challenge with unmatched confidence and determination. Watch out, because they’re here to prove that classics never go out of style!"
   },
   { 
-    id: 2, 
+    id: 3, 
     name: 'Advanced Avengers', 
     logo: team2,
     captainImage: Cap2,
@@ -36,7 +36,7 @@ const sports = [
     message: "Beyond limits, beyond victory!Under the fearless leadership of Jayesh Dhoot, the Advanced Avengers are a powerhouse of precision and prowess. Draped in commanding black jerseys 🖤, they strike with the perfect balance of strategy and skill. With their eyes on the prize, this team isn’t just here to play—they’re here to avenge and achieve greatness!"
   },
   { 
-    id: 3, 
+    id: 6, 
     name: 'Shift Strikers', 
     logo: team3,
     captainImage: Cap3,
@@ -44,7 +44,7 @@ const sports = [
     message: "Shifting the game, striking with precision!Led by the charismatic Ayush Chandak, the Shift Strikers are masters of adaptability and strategy. Sporting vibrant blue jerseys, they bring calm focus and unstoppable energy to the field. Get ready to witness a team that knows how to shift gears and strike gold in every match!"
   },
   { 
-    id: 4, 
+    id: 2, 
     name: 'Gold Gangsters', 
     logo: team4,
     captainImage: Cap4,
@@ -52,7 +52,7 @@ const sports = [
     message: "Stealing the show, owning the game!Commanded by the bold and brilliant Hrushikesh Purohit, the Gold Gangsters 😎 bring unmatched swagger and skill to the field. Dressed in sleek white jerseys 🤍, they radiate class and confidence. This team doesn’t just play; they take over—because when it comes to gold, they’re the ultimate gang!"
   },
   { 
-    id: 5, 
+    id: 6, 
     name: 'Foursquare Fighters',
     logo: team5,
     captainImage: Cap5, 
@@ -60,7 +60,7 @@ const sports = [
     message: "Squaring up for victory, fighting till the end!Led by the determined Prashil Bhattad, the Foursquare Fighters are a perfect blend of grit and strategy. Clad in their sharp gray jerseys, they bring balance, strength, and resilience to the field. Whether it’s offense or defense, this team fights every battle with unwavering determination and a hunger for triumph!"
   },
   { 
-    id: 6, 
+    id: 4, 
     name: 'Wild Wills', 
     logo: team6,
     captainImage: yash,
@@ -68,7 +68,7 @@ const sports = [
     message: "Fueled by fire, driven by will!Under the daring leadership of Yash Ghoderao, the Wild Wills are a force of untamed energy and fearless ambition. Sporting bold neon orange jerseys, they light up the field with their electrifying presence and unstoppable drive. With sheer willpower as their weapon, they’re here to prove that wild hearts always conquer!"
   },
   { 
-    id: 7, 
+    id: 1, 
     name: 'Mild Monsters', 
     logo: team7,
     captainImage: Cap7,
@@ -168,16 +168,16 @@ const SportPage = () => {
       <h2>{sport.name}</h2>
       <div className="sport-content">
         <div className="sport-logo">
-        <img src={sport.captainImage} alt={`${sport.captain}`} />
-          
+        <img src={sport.logo} alt={`${sport.name} logo`} />
         </div>
         <div className="captain-section">
+        <u><h4>Team Captain</h4></u>
+        <h4>{sport.captain}</h4>
           <div className="captain-image">
-          <img src={sport.logo} alt={`${sport.name} logo`} />
+            <img src={sport.captainImage} alt={`${sport.captain}`} />
           </div>
           <div className="captain-message">
             <h3>Message from the Captain</h3>
-            <h4>{sport.captain}</h4>
             <p>"{sport.message}"</p>
           </div>
         </div>

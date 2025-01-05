@@ -111,32 +111,45 @@
   max-width: 600px;
 }
 
-.captain-image {
-  flex: 1.5;
+/* .captain-image { */
+  /* flex: 1.5;
   max-width: 100px;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: red; */
-  padding-right: 50px;
+  /* padding-right: 50px;
   padding-left: 40px;
+} */
+
+/* .captain-image img { */
+  /* width: 250%;
+  height: auto;
+  aspect-ratio: 1 / 1; /* Ensures the image remains a perfect circle */
+  /* border-radius: 50%; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  /* object-fit: cover; Ensures the image covers the space without distortion */
+/* }  */ */
+
+.captain-image {
+  flex: 1;
+  max-width: 200px;
+  margin-bottom: 20px;
 }
 
 .captain-image img {
-  width: 250%;
+  width: 100%;
   height: auto;
-  aspect-ratio: 1 / 1; /* Ensures the image remains a perfect circle */
-  border-radius: 50%;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  object-fit: cover; /* Ensures the image covers the space without distortion */
+  border-radius: 10%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 
 .captain-message {
   flex: 2;
   text-align: left;
-  padding: 0 20px;
+  padding: 10px 40px;
 }
 
 .captain-message h3 {
