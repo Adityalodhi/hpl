@@ -36,7 +36,7 @@ const sports = [
     message: "Beyond limits, beyond victory!Under the fearless leadership of Jayesh Dhoot, the Advanced Avengers are a powerhouse of precision and prowess. Draped in commanding black jerseys 🖤, they strike with the perfect balance of strategy and skill. With their eyes on the prize, this team isn’t just here to play—they’re here to avenge and achieve greatness!"
   },
   { 
-    id: 6, 
+    id: 7, 
     name: 'Shift Strikers', 
     logo: team3,
     captainImage: Cap3,
