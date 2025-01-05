@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import Cap1 from "./images/cap1.jpg"
 import Cap2 from "./images/cap2.jpg"
 import Cap3 from "./images/cap3.jpg"
-import Cap4 from "./images/cap4.jpg"
+import Cap4 from "./images/team22.jpeg"
 import Cap5 from "./images/cap5.jpg"
 // import Cap6 from "./images/cap6.jpg"
 import yash from "./images/yash.jpeg"
