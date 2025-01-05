@@ -1,6 +1,10 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
+  /* background-color: #3b5bc5; */
+  background: linear-gradient(135deg, #4e0d7d, #014384);
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .App-header {
@@ -150,22 +154,23 @@
   flex: 2;
   text-align: left;
   padding: 10px 40px;
+  color: white;
 }
 
 .captain-message h3 {
-  color: #282c34;
+  /* color: #282c34; */
   border-bottom: 2px solid #282c34;
   padding-bottom: 10px;
 }
 
 .captain-message h4 {
-  color: #555;
+  /* color: #555; */
   margin-top: 0;
 }
 
 .captain-message p {
   font-style: italic;
-  color: #666;
+  /* color: #666; */
   line-height: 1.6;
 }
 
