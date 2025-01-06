@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import React, {useEffect, useRef } from 'react';
 import team1 from "./images/team1.png";
 import team2 from "./images/team2.png";
 import team3 from "./images/team3.png";
@@ -22,11 +23,30 @@ const sports = [
 
 const Home = () => {
 
+    const videoRef = useRef(null);
+
+    useEffect(() => {
+        const video = videoRef.current;
+
+        if (video) {
+            const playVideo = async () => {
+                try {
+                    await video.play();
+                } catch (err) {
+                    console.error("Autoplay with sound is blocked by the browser:", err);
+                }
+            };
+
+            playVideo();
+        }
+    }, []);
+
     return (
         <div className="home">
-            <h2>Hostel Premier League (HPL) 8.0</h2>
+            <h2>Hostel Premier League </h2>
+            <h2>HPL 8.0</h2>
             <div className="video-container">
-                <video controls width="100%">
+                <video autoPlay loop width="100%" controls>
                     <source src={hplvideo} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>

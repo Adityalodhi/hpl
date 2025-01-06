@@ -3,17 +3,43 @@
   font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #4e0d7d, #014384);
   color: white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282a30;
   padding: 20px;
   color: white;
 }
 
+.mainlogo{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-bottom: 5%;
+  /* flex-direction: right; */
+}
+
+
+.logoI{
+  border-radius: 100%;
+  width: 12%;
+  height: 12%;
+  display: flex;
+  justify-content: left;
+}
+
+.logo2{
+  border-radius: 100%;
+  width: 12%;
+  height: 12%;
+  display: flex;
+  justify-content: right;
+}
+
 .App-header h1 {
   margin: 0;
+  font-size: 210%;
 }
 
 .App-header nav ul {
@@ -178,3 +204,42 @@
   object-fit: cover;
 }
 
+/* Footer Styles */
+.footer {
+  background: linear-gradient(to right, #333, #555);
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #1da1f2; /* Instagram-like hover color */
+}
+
+.footer-credits1 {
+  font-size: 20px;
+  color: #aaa;
+  margin-top: 1px;
+  margin-bottom: -3px;
+}
+.footer-credits {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 5px;
+}

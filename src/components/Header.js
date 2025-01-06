@@ -1,9 +1,16 @@
 import React from 'react';
+import logo from './images/hostellogo.jpg'
+import logo2 from './images/HPL.png'
 
 const Header = () => {
   return (
     <header className="App-header">
-      <h1>Boys Hostel Presents</h1>
+        <div className='mainlogo'>
+            <img className='logoI' src={logo} alt="" />
+            <img className='logo2' src={logo2} alt="" />
+
+        </div>
+      <h1>Boy's Hostel Presents</h1>
     </header>
   );
 };
