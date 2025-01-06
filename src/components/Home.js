@@ -51,7 +51,7 @@ const Home = () => {
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <u><h2>Click on logos for detail</h2></u>
+            <u><h2 className='cssdiv1'>Click on logos for details :</h2></u>
             <div className="sports-grid">
                 
                 {sports.map((sport) => (

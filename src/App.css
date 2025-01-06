@@ -116,6 +116,22 @@
   align-items: flex-start;
 }
 
+.cssdiv{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.cssdiv1{
+  padding-top: 60px;
+  /* padding-bottom: 10px; */
+  margin-bottom: 0px;
+}
+
+/* .newCss{
+  display: flex;
+  justify-content: left;
+} */
+
 .sport-logo {
   flex: 1;
   max-width: 300px;
