@@ -25,6 +25,8 @@ const sports = [
     logo: team1,
     captainImage: Cap1,
     captain: 'Pratik Mulay',
+    vc:'Prabhu kalantri',
+    vcc:'Akash Singh',
     message: "Where tradition meets triumph!Led by the dynamic Pratik Mulay, the Classic Challengers embody the perfect blend of strategy and spirit. With their iconic yellow jerseys symbolizing energy and optimism, this team takes on every challenge with unmatched confidence and determination. Watch out, because they’re here to prove that classics never go out of style!"
   },
   { 
@@ -33,6 +35,8 @@ const sports = [
     logo: team2,
     captainImage: Cap2,
     captain: 'Jayesh Dhoot',
+    vc:'Sachin Sharma',
+    vcc:'Priyashu Singh',
     message: "Beyond limits, beyond victory!Under the fearless leadership of Jayesh Dhoot, the Advanced Avengers are a powerhouse of precision and prowess. Draped in commanding black jerseys 🖤, they strike with the perfect balance of strategy and skill. With their eyes on the prize, this team isn’t just here to play—they’re here to avenge and achieve greatness!"
   },
   { 
@@ -41,6 +45,8 @@ const sports = [
     logo: team3,
     captainImage: Cap3,
     captain: 'Ayush Chandak',
+    vc:'Harsh Verma',
+    vcc:'Akshat Khandelwal',
     message: "Shifting the game, striking with precision!Led by the charismatic Ayush Chandak, the Shift Strikers are masters of adaptability and strategy. Sporting vibrant blue jerseys, they bring calm focus and unstoppable energy to the field. Get ready to witness a team that knows how to shift gears and strike gold in every match!"
   },
   { 
@@ -49,6 +55,8 @@ const sports = [
     logo: team4,
     captainImage: Cap4,
     captain: 'Hrushikesh Purohit ',
+    vc: 'Adrash gandhi',
+    vcc:'Tejasvi raj Pandit',
     message: "Stealing the show, owning the game!Commanded by the bold and brilliant Hrushikesh Purohit, the Gold Gangsters 😎 bring unmatched swagger and skill to the field. Dressed in sleek white jerseys 🤍, they radiate class and confidence. This team doesn’t just play; they take over—because when it comes to gold, they’re the ultimate gang!"
   },
   { 
@@ -57,6 +65,8 @@ const sports = [
     logo: team5,
     captainImage: Cap5, 
     captain: 'Prashil Bhattad',
+    vc:'Ayush Pandey',
+    vcc:'Rahul Prasad',
     message: "Squaring up for victory, fighting till the end!Led by the determined Prashil Bhattad, the Foursquare Fighters are a perfect blend of grit and strategy. Clad in their sharp gray jerseys, they bring balance, strength, and resilience to the field. Whether it’s offense or defense, this team fights every battle with unwavering determination and a hunger for triumph!"
   },
   { 
@@ -65,6 +75,8 @@ const sports = [
     logo: team6,
     captainImage: yash,
     captain: 'Yash Ghoderao',
+    vc:'Nibhod Jaju',
+    vcc:'Shrikant Biyani',
     message: "Fueled by fire, driven by will!Under the daring leadership of Yash Ghoderao, the Wild Wills are a force of untamed energy and fearless ambition. Sporting bold neon orange jerseys, they light up the field with their electrifying presence and unstoppable drive. With sheer willpower as their weapon, they’re here to prove that wild hearts always conquer!"
   },
   { 
@@ -73,6 +85,8 @@ const sports = [
     logo: team7,
     captainImage: Cap7,
     captain: 'Keshav Shukla',
+    vc:'Riddhvesh Dixit',
+    vcc:'Yash Choudary',
     message: "Calm on the surface, fierce at the core! Guided by the composed yet powerful Keshav Shukla, the Mild Monsters are masters of controlled chaos. Donning striking red jerseys ♥, they blend patience with raw power, delivering surprises when least expected. They may seem mild, but beware—these monsters strike with unmatched intensity when it matters most!"
   },
   { 
@@ -81,6 +95,8 @@ const sports = [
     logo: team8,
     captainImage: Cap8,
     captain: 'Priyash Laddha',
+    vc:'Jay Trivedi',
+    vcc:'Dhruv Yadav',
     message: "Proud roots, unstoppable spirits! Led by the inspiring Priyash Laddha, the Indie Indians bring tradition and innovation together on the field. Dressed in regal purple jerseys, they exude creativity, pride, and determination. With their unique flair and unbeatable teamwork, this squad is set to redefine the game and make their mark with every move!"
   },
 ];
@@ -177,6 +193,10 @@ const SportPage = () => {
             <img src={sport.captainImage} alt={`${sport.captain}`} />
           </div>
           <div className="captain-message">
+          <u><h4>Team Vice Captains</h4></u>
+          <h4>{sport.vc}</h4>
+          <h4>{sport.vcc}</h4>
+          
             <h3>Message from the Captain</h3>
             <p>"{sport.message}"</p>
           </div>
